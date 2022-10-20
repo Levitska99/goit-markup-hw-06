@@ -796,7 +796,15 @@ background-color: var(--accent-color);
     padding-left: 16px;
     padding-top: 12px;
 }
-.label-checkbox{
-display: flex;
-
+.form-checkbox{
+    padding-top: 20px;
+}
+.label-checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--subtitle-colour);
 }
