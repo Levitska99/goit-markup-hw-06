@@ -707,7 +707,6 @@ background-color: var(--accent-color);
     margin-left: 93px;
 }
 .footer-soc-title {
-    display: flex;
     color: var(--hero-title);
     font-weight: 700;
     font-size: 14px;
@@ -750,7 +749,7 @@ background-color: var(--accent-color);
     border-radius: 4px;
     margin-left: 12px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    
+
 }
 .footer-btn:hover,
 .footer-btn:focus{
@@ -818,7 +817,7 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
     margin-bottom: 12px;
 }
-.modal-field{
+.modal-field {
     margin-bottom: 10px;
 }
 .modal-input{
@@ -896,7 +895,9 @@ color: var(--accent-color);
     color: var(--subtitle-colour);
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
+
 .check-text span {
     width: 16px;
     height: 15px;
@@ -925,6 +926,8 @@ border-color: var(--accent-color);
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    text-underline-offset: 12%;
+
 }
 .form-checkbox{
     padding-top: 20px;
@@ -948,6 +951,8 @@ border-color: var(--accent-color);
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
     border: none;
     color: var(--hero-title);
     background-color: var(--accent-color);
